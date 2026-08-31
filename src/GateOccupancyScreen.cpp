@@ -1,10 +1,11 @@
-#include "GateOccupancyScreen.h"
-#include "GateOccupancyPlugin.h"
-#include "HecaGateData.h"
 #include <Windows.h>
-#include <string>
-#include <cstring>
+#include "GateOccupancyPlugin.h"
+#include "GateOccupancyScreen.h"
+#include "HecaGateData.h"
 
+#include <algorithm>
+#include <cmath>
+#include <cstring>
 void GateOccupancyScreen::OnRefresh(HDC hDC, int Phase) {
     if (Phase != REFRESH_PHASE_AFTER_TAGS) return;
     auto* plugin = static_cast<GateOccupancyPlugin*>(GetPlugIn());
