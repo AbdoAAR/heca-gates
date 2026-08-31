@@ -1,10 +1,11 @@
+#include <Windows.h>
 #include "GateOccupancyPlugin.h"
 #include "GateOccupancyScreen.h"
 #include "HecaGateData.h"
+
 #include <algorithm>
 #include <cmath>
 #include <cstring>
-
 GateOccupancyPlugin::GateOccupancyPlugin()
     : CPlugIn(EuroScopePlugIn::COMPATIBILITY_CODE,
               "HECA Gate Occupancy",
