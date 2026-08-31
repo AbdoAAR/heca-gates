@@ -21,12 +21,12 @@ void GateOccupancyScreen::OnRefresh(
     if (!plugin)
         return;
 
-    // Plugin status text
     SetBkMode(
         hDC,
         TRANSPARENT
     );
 
+    // Debug text to confirm plugin is loaded.
     SetTextColor(
         hDC,
         RGB(0, 255, 0)
@@ -48,7 +48,6 @@ void GateOccupancyScreen::OnRefresh(
     if (!plugin->Enabled())
         return;
 
-    // Update occupied/free stand states
     plugin->UpdateOccupancy();
 
     for (
@@ -79,13 +78,12 @@ void GateOccupancyScreen::OnRefresh(
             );
 
         // RED = occupied
-        // GREEN = free
+        // DARK GRAY = empty
         COLORREF gateColor =
             state.occupied
-            ? RGB(255, 0, 0)
-            : RGB(0, 255, 0);
+            ? RGB(220, 40, 40)
+            : RGB(70, 70, 70);
 
-        // Draw stand marker
         HBRUSH brush =
             CreateSolidBrush(
                 gateColor
@@ -101,10 +99,10 @@ void GateOccupancyScreen::OnRefresh(
 
         Ellipse(
             hDC,
-            point.x - 12,
-            point.y - 12,
-            point.x + 12,
-            point.y + 12
+            point.x - 10,
+            point.y - 10,
+            point.x + 10,
+            point.y + 10
         );
 
         SelectObject(
@@ -116,16 +114,15 @@ void GateOccupancyScreen::OnRefresh(
             brush
         );
 
-        // Draw gate label
         SetTextColor(
             hDC,
-            gateColor
+            RGB(255, 255, 255)
         );
 
         TextOutA(
             hDC,
-            point.x + 14,
-            point.y - 8,
+            point.x + 12,
+            point.y - 7,
             gate.label,
             static_cast<int>(
                 std::strlen(
@@ -134,7 +131,7 @@ void GateOccupancyScreen::OnRefresh(
             )
         );
 
-        // Optional callsign display
+        // Show callsign on occupied stand.
         if (
             state.occupied &&
             plugin->ShowCallsign() &&
@@ -143,13 +140,13 @@ void GateOccupancyScreen::OnRefresh(
         {
             SetTextColor(
                 hDC,
-                RGB(255, 255, 255)
+                RGB(255, 100, 100)
             );
 
             TextOutA(
                 hDC,
-                point.x + 14,
-                point.y + 8,
+                point.x + 12,
+                point.y + 7,
                 state.callsign.c_str(),
                 static_cast<int>(
                     state.callsign.length()
