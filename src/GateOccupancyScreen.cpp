@@ -52,10 +52,10 @@ void GateOccupancyScreen::OnRefresh(HDC hDC, int Phase)
 
         Ellipse(
             hDC,
-            point.x - 5,
-            point.y - 5,
-            point.x + 5,
-            point.y + 5
+            point.x - 8,
+            point.y - 8,
+            point.x + 8,
+            point.y + 8
         );
 
         SelectObject(hDC, oldBrush);
