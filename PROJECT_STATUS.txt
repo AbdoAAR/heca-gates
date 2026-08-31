@@ -1,0 +1,3 @@
+HECA Gate Occupancy project
+Extracted HECA candidate coordinates: 323
+Status: source project generated from supplied sector package; SDK-specific drawing/enumeration adapter still needs the exact EuroScope SDK revision.

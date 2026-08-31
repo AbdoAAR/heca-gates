@@ -1,0 +1,2605 @@
+{
+  "airport": "HECA",
+  "occupancy": {
+    "max_altitude_ft": 3000,
+    "default_radius_m": 32,
+    "refresh_seconds": 1,
+    "free_color": [
+      110,
+      110,
+      110
+    ],
+    "occupied_color": [
+      255,
+      40,
+      40
+    ],
+    "show_callsign": true
+  },
+  "stands": [
+    {
+      "id": "1",
+      "label": "1",
+      "lat_dms": "N030.07.02.251",
+      "lon_dms": "E031.22.55.485",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "lat_dms": "N030.07.02.888",
+      "lon_dms": "E031.22.56.519",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "lat_dms": "N030.07.03.459",
+      "lon_dms": "E031.22.57.582",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "lat_dms": "N030.07.03.964",
+      "lon_dms": "E031.22.58.579",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "1_2",
+      "label": "1",
+      "lat_dms": "N030.07.20.588",
+      "lon_dms": "E031.23.17.443",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "2_2",
+      "label": "2",
+      "lat_dms": "N030.07.21.200",
+      "lon_dms": "E031.23.18.236",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "3_2",
+      "label": "3",
+      "lat_dms": "N030.07.21.813",
+      "lon_dms": "E031.23.18.994",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "4_2",
+      "label": "4",
+      "lat_dms": "N030.07.22.433",
+      "lon_dms": "E031.23.19.789",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "5",
+      "label": "5",
+      "lat_dms": "N030.07.23.071",
+      "lon_dms": "E031.23.20.531",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "6",
+      "label": "6",
+      "lat_dms": "N030.07.23.676",
+      "lon_dms": "E031.23.21.326",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "lat_dms": "N030.07.24.170",
+      "lon_dms": "E031.23.22.003",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "8",
+      "label": "8",
+      "lat_dms": "N030.07.24.769",
+      "lon_dms": "E031.23.22.660",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "9",
+      "label": "9",
+      "lat_dms": "N030.07.25.344",
+      "lon_dms": "E031.23.23.239",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "10",
+      "label": "10",
+      "lat_dms": "N030.07.25.813",
+      "lon_dms": "E031.23.23.902",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "11",
+      "label": "11",
+      "lat_dms": "N030.07.26.246",
+      "lon_dms": "E031.23.24.490",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "12",
+      "label": "12",
+      "lat_dms": "N030.07.26.810",
+      "lon_dms": "E031.23.25.108",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "13",
+      "label": "13",
+      "lat_dms": "N030.07.27.409",
+      "lon_dms": "E031.23.25.920",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "1_3",
+      "label": "1",
+      "lat_dms": "N030.07.27.228",
+      "lon_dms": "E031.23.28.254",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "2_3",
+      "label": "2",
+      "lat_dms": "N030.07.28.739",
+      "lon_dms": "E031.23.30.385",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "3_3",
+      "label": "3",
+      "lat_dms": "N030.07.30.209",
+      "lon_dms": "E031.23.32.398",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "4_3",
+      "label": "4",
+      "lat_dms": "N030.07.31.799",
+      "lon_dms": "E031.23.34.461",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "5_2",
+      "label": "5",
+      "lat_dms": "N030.07.33.374",
+      "lon_dms": "E031.23.36.658",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "6_2",
+      "label": "6",
+      "lat_dms": "N030.07.34.919",
+      "lon_dms": "E031.23.38.892",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "7_2",
+      "label": "7",
+      "lat_dms": "N030.07.36.509",
+      "lon_dms": "E031.23.40.976",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "8_2",
+      "label": "8",
+      "lat_dms": "N030.07.38.083",
+      "lon_dms": "E031.23.43.128",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "9_2",
+      "label": "9",
+      "lat_dms": "N030.07.39.746",
+      "lon_dms": "E031.23.45.248",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "10_2",
+      "label": "10",
+      "lat_dms": "N030.07.41.303",
+      "lon_dms": "E031.23.47.548",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "11_2",
+      "label": "11",
+      "lat_dms": "N030.07.43.339",
+      "lon_dms": "E031.23.50.241",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "12_2",
+      "label": "12",
+      "lat_dms": "N030.07.45.122",
+      "lon_dms": "E031.23.52.556",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "13_2",
+      "label": "13",
+      "lat_dms": "N030.07.46.927",
+      "lon_dms": "E031.23.55.013",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "14",
+      "label": "14",
+      "lat_dms": "N030.07.48.704",
+      "lon_dms": "E031.23.57.563",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "15",
+      "label": "15",
+      "lat_dms": "N030.07.46.435",
+      "lon_dms": "E031.24.05.312",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "16",
+      "label": "16",
+      "lat_dms": "N030.07.49.288",
+      "lon_dms": "E031.24.04.195",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "17",
+      "label": "17",
+      "lat_dms": "N030.07.50.963",
+      "lon_dms": "E031.24.02.346",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "18",
+      "label": "18",
+      "lat_dms": "N030.07.52.677",
+      "lon_dms": "E031.24.00.519",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "19",
+      "label": "19",
+      "lat_dms": "N030.07.54.622",
+      "lon_dms": "E031.24.03.441",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "20",
+      "label": "20",
+      "lat_dms": "N030.07.53.260",
+      "lon_dms": "E031.24.05.244",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "21",
+      "label": "21",
+      "lat_dms": "N030.07.51.609",
+      "lon_dms": "E031.24.07.072",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "22",
+      "label": "22",
+      "lat_dms": "N030.07.49.798",
+      "lon_dms": "E031.24.08.768",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "23",
+      "label": "23",
+      "lat_dms": "N030.07.48.937",
+      "lon_dms": "E031.24.12.517",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "24",
+      "label": "24",
+      "lat_dms": "N030.07.49.499",
+      "lon_dms": "E031.24.15.353",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "25",
+      "label": "25",
+      "lat_dms": "N030.07.50.156",
+      "lon_dms": "E031.24.18.136",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "26",
+      "label": "26",
+      "lat_dms": "N030.07.50.786",
+      "lon_dms": "E031.24.20.973",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "27",
+      "label": "27",
+      "lat_dms": "N030.07.47.219",
+      "lon_dms": "E031.24.21.531",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "28",
+      "label": "28",
+      "lat_dms": "N030.07.46.656",
+      "lon_dms": "E031.24.19.125",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "29",
+      "label": "29",
+      "lat_dms": "N030.07.46.087",
+      "lon_dms": "E031.24.16.593",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "30",
+      "label": "30",
+      "lat_dms": "N030.07.45.727",
+      "lon_dms": "E031.24.14.126",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "31",
+      "label": "31",
+      "lat_dms": "N030.07.42.296",
+      "lon_dms": "E031.24.17.128",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "32",
+      "label": "32",
+      "lat_dms": "N030.07.41.193",
+      "lon_dms": "E031.24.18.264",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "33",
+      "label": "33",
+      "lat_dms": "N030.07.40.142",
+      "lon_dms": "E031.24.19.688",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "34",
+      "label": "34",
+      "lat_dms": "N030.07.38.904",
+      "lon_dms": "E031.24.20.329",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "35",
+      "label": "35",
+      "lat_dms": "N030.07.37.828",
+      "lon_dms": "E031.24.21.162",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "36",
+      "label": "36",
+      "lat_dms": "N030.07.36.598",
+      "lon_dms": "E031.24.21.714",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "37",
+      "label": "37",
+      "lat_dms": "N030.07.43.128",
+      "lon_dms": "E031.24.23.421",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "38",
+      "label": "38",
+      "lat_dms": "N030.07.40.873",
+      "lon_dms": "E031.24.24.237",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "39",
+      "label": "39",
+      "lat_dms": "N030.07.38.763",
+      "lon_dms": "E031.24.24.864",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "40",
+      "label": "40",
+      "lat_dms": "N030.07.36.536",
+      "lon_dms": "E031.24.25.550",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "41",
+      "label": "41",
+      "lat_dms": "N030.07.31.889",
+      "lon_dms": "E031.24.26.321",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "42",
+      "label": "42",
+      "lat_dms": "N030.07.29.370",
+      "lon_dms": "E031.24.27.282",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "1_4",
+      "label": "1",
+      "lat_dms": "N030.07.27.038",
+      "lon_dms": "E031.24.26.520",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "2_4",
+      "label": "2",
+      "lat_dms": "N030.07.27.445",
+      "lon_dms": "E031.24.27.809",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "3_4",
+      "label": "3",
+      "lat_dms": "N030.07.27.654",
+      "lon_dms": "E031.24.29.173",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "4_4",
+      "label": "4",
+      "lat_dms": "N030.07.24.534",
+      "lon_dms": "E031.24.27.402",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "5_3",
+      "label": "5",
+      "lat_dms": "N030.07.24.907",
+      "lon_dms": "E031.24.28.719",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "6_3",
+      "label": "6",
+      "lat_dms": "N030.07.25.295",
+      "lon_dms": "E031.24.30.087",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "7_3",
+      "label": "7",
+      "lat_dms": "N030.07.22.092",
+      "lon_dms": "E031.24.28.180",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "8_3",
+      "label": "8",
+      "lat_dms": "N030.07.22.476",
+      "lon_dms": "E031.24.29.552",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "9_3",
+      "label": "9",
+      "lat_dms": "N030.07.22.779",
+      "lon_dms": "E031.24.30.892",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C1",
+      "label": "C1",
+      "lat_dms": "N030.07.09.684",
+      "lon_dms": "E031.24.32.943",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C2",
+      "label": "C2",
+      "lat_dms": "N030.07.07.457",
+      "lon_dms": "E031.24.33.874",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C3",
+      "label": "C3",
+      "lat_dms": "N030.07.05.277",
+      "lon_dms": "E031.24.34.564",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C4",
+      "label": "C4",
+      "lat_dms": "N030.07.03.052",
+      "lon_dms": "E031.24.35.359",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C5",
+      "label": "C5",
+      "lat_dms": "N030.07.00.752",
+      "lon_dms": "E031.24.36.130",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E1",
+      "label": "E1",
+      "lat_dms": "N030.06.50.645",
+      "lon_dms": "E031.24.01.625",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E2",
+      "label": "E2",
+      "lat_dms": "N030.06.47.692",
+      "lon_dms": "E031.24.02.906",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E3",
+      "label": "E3",
+      "lat_dms": "N030.06.40.446",
+      "lon_dms": "E031.24.03.415",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E4",
+      "label": "E4",
+      "lat_dms": "N030.06.45.629",
+      "lon_dms": "E031.24.04.881",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E5",
+      "label": "E5",
+      "lat_dms": "N030.06.39.886",
+      "lon_dms": "E031.24.06.117",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E6",
+      "label": "E6",
+      "lat_dms": "N030.06.44.516",
+      "lon_dms": "E031.24.08.295",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E7",
+      "label": "E7",
+      "lat_dms": "N030.06.39.232",
+      "lon_dms": "E031.24.08.579",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E8",
+      "label": "E8",
+      "lat_dms": "N030.06.43.830",
+      "lon_dms": "E031.24.10.456",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E9",
+      "label": "E9",
+      "lat_dms": "N030.06.38.121",
+      "lon_dms": "E031.24.11.257",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E10",
+      "label": "E10",
+      "lat_dms": "N030.06.42.846",
+      "lon_dms": "E031.24.12.796",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E11",
+      "label": "E11",
+      "lat_dms": "N030.06.37.260",
+      "lon_dms": "E031.24.14.974",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E12",
+      "label": "E12",
+      "lat_dms": "N030.06.39.178",
+      "lon_dms": "E031.24.16.625",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E13",
+      "label": "E13",
+      "lat_dms": "N030.06.41.002",
+      "lon_dms": "E031.24.15.969",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E14",
+      "label": "E14",
+      "lat_dms": "N030.06.42.004",
+      "lon_dms": "E031.24.14.622",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E201",
+      "label": "E201",
+      "lat_dms": "N030.06.53.202",
+      "lon_dms": "E031.24.03.769",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E202",
+      "label": "E202",
+      "lat_dms": "N030.06.54.664",
+      "lon_dms": "E031.24.05.713",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E203",
+      "label": "E203",
+      "lat_dms": "N030.06.56.049",
+      "lon_dms": "E031.24.07.850",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E204",
+      "label": "E204",
+      "lat_dms": "N030.06.36.960",
+      "lon_dms": "E031.24.18.085",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E205",
+      "label": "E205",
+      "lat_dms": "N030.06.42.692",
+      "lon_dms": "E031.24.26.652",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E206",
+      "label": "E206",
+      "lat_dms": "N030.06.43.572",
+      "lon_dms": "E031.24.27.883",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E207",
+      "label": "E207",
+      "lat_dms": "N030.06.44.883",
+      "lon_dms": "E031.24.29.328",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E208",
+      "label": "E208",
+      "lat_dms": "N030.06.46.566",
+      "lon_dms": "E031.24.31.621",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E209",
+      "label": "E209",
+      "lat_dms": "N030.06.48.307",
+      "lon_dms": "E031.24.33.874",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E210",
+      "label": "E210",
+      "lat_dms": "N030.06.49.991",
+      "lon_dms": "E031.24.36.201",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E211",
+      "label": "E211",
+      "lat_dms": "N030.06.50.871",
+      "lon_dms": "E031.24.37.893",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E212",
+      "label": "E212",
+      "lat_dms": "N030.06.51.764",
+      "lon_dms": "E031.24.39.182",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F1",
+      "label": "F1",
+      "lat_dms": "N030.06.35.737",
+      "lon_dms": "E031.23.53.329",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F2",
+      "label": "F2",
+      "lat_dms": "N030.06.33.361",
+      "lon_dms": "E031.23.54.060",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F3",
+      "label": "F3",
+      "lat_dms": "N030.06.31.061",
+      "lon_dms": "E031.23.54.768",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F5",
+      "label": "F5",
+      "lat_dms": "N030.06.28.721",
+      "lon_dms": "E031.23.55.371",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F7",
+      "label": "F7",
+      "lat_dms": "N030.06.30.068",
+      "lon_dms": "E031.24.00.504",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F8",
+      "label": "F8",
+      "lat_dms": "N030.06.32.114",
+      "lon_dms": "E031.23.59.805",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F9",
+      "label": "F9",
+      "lat_dms": "N030.06.34.912",
+      "lon_dms": "E031.24.00.875",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G1",
+      "label": "G1",
+      "lat_dms": "N030.06.34.098",
+      "lon_dms": "E031.23.46.819",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G2",
+      "label": "G2",
+      "lat_dms": "N030.07.58.948",
+      "lon_dms": "E031.24.24.705",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G2_2",
+      "label": "G2",
+      "lat_dms": "N030.08.00.978",
+      "lon_dms": "E031.24.31.948",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G3",
+      "label": "G3",
+      "lat_dms": "N030.07.53.927",
+      "lon_dms": "E031.24.34.232",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G2_3",
+      "label": "G2",
+      "lat_dms": "N030.06.31.718",
+      "lon_dms": "E031.23.47.414",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G3_2",
+      "label": "G3",
+      "lat_dms": "N030.06.29.527",
+      "lon_dms": "E031.23.48.181",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G4",
+      "label": "G4",
+      "lat_dms": "N030.06.27.187",
+      "lon_dms": "E031.23.48.831",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G7",
+      "label": "G7",
+      "lat_dms": "N030.06.28.184",
+      "lon_dms": "E031.23.43.028",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G8",
+      "label": "G8",
+      "lat_dms": "N030.06.30.567",
+      "lon_dms": "E031.23.42.323",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G5",
+      "label": "G5",
+      "lat_dms": "N030.06.25.817",
+      "lon_dms": "E031.23.43.691",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G9",
+      "label": "G9",
+      "lat_dms": "N030.06.32.843",
+      "lon_dms": "E031.23.41.636",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "301",
+      "label": "301",
+      "lat_dms": "N030.06.31.266",
+      "lon_dms": "E031.23.35.111",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "302",
+      "label": "302",
+      "lat_dms": "N030.06.28.943",
+      "lon_dms": "E031.23.35.763",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "303",
+      "label": "303",
+      "lat_dms": "N030.06.26.584",
+      "lon_dms": "E031.23.36.460",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "304",
+      "label": "304",
+      "lat_dms": "N030.06.24.257",
+      "lon_dms": "E031.23.37.063",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "305",
+      "label": "305",
+      "lat_dms": "N030.06.23.074",
+      "lon_dms": "E031.23.31.836",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "306",
+      "label": "306",
+      "lat_dms": "N030.06.25.371",
+      "lon_dms": "E031.23.31.145",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "307",
+      "label": "307",
+      "lat_dms": "N030.06.27.735",
+      "lon_dms": "E031.23.30.406",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "308",
+      "label": "308",
+      "lat_dms": "N030.06.30.043",
+      "lon_dms": "E031.23.29.758",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "309",
+      "label": "309",
+      "lat_dms": "N030.06.28.470",
+      "lon_dms": "E031.23.22.530",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "310",
+      "label": "310",
+      "lat_dms": "N030.06.26.111",
+      "lon_dms": "E031.23.23.288",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "311",
+      "label": "311",
+      "lat_dms": "N030.06.23.780",
+      "lon_dms": "E031.23.23.943",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "312",
+      "label": "312",
+      "lat_dms": "N030.06.21.591",
+      "lon_dms": "E031.23.24.680",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "313",
+      "label": "313",
+      "lat_dms": "N030.06.15.903",
+      "lon_dms": "E031.23.45.719",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "314",
+      "label": "314",
+      "lat_dms": "N030.06.13.966",
+      "lon_dms": "E031.23.46.440",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "315",
+      "label": "315",
+      "lat_dms": "N030.06.12.669",
+      "lon_dms": "E031.23.41.615",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "316",
+      "label": "316",
+      "lat_dms": "N030.06.13.945",
+      "lon_dms": "E031.23.41.153",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "317",
+      "label": "317",
+      "lat_dms": "N030.06.15.153",
+      "lon_dms": "E031.23.40.758",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "318",
+      "label": "318",
+      "lat_dms": "N030.06.14.527",
+      "lon_dms": "E031.23.38.732",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "319",
+      "label": "319",
+      "lat_dms": "N030.06.13.382",
+      "lon_dms": "E031.23.39.113",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "320",
+      "label": "320",
+      "lat_dms": "N030.06.12.225",
+      "lon_dms": "E031.23.39.488",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "321",
+      "label": "321",
+      "lat_dms": "N030.06.11.094",
+      "lon_dms": "E031.23.34.794",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "322",
+      "label": "322",
+      "lat_dms": "N030.06.12.423",
+      "lon_dms": "E031.23.34.380",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "323",
+      "label": "323",
+      "lat_dms": "N030.06.13.480",
+      "lon_dms": "E031.23.33.969",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "324",
+      "label": "324",
+      "lat_dms": "N030.06.12.208",
+      "lon_dms": "E031.23.28.134",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "325",
+      "label": "325",
+      "lat_dms": "N030.06.10.440",
+      "lon_dms": "E031.23.28.953",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "326",
+      "label": "326",
+      "lat_dms": "N030.06.08.522",
+      "lon_dms": "E031.23.29.598",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "327",
+      "label": "327",
+      "lat_dms": "N030.06.06.107",
+      "lon_dms": "E031.23.33.850",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "328",
+      "label": "328",
+      "lat_dms": "N030.06.06.653",
+      "lon_dms": "E031.23.35.832",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "329",
+      "label": "329",
+      "lat_dms": "N030.06.07.047",
+      "lon_dms": "E031.23.38.269",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "330",
+      "label": "330",
+      "lat_dms": "N030.06.07.767",
+      "lon_dms": "E031.23.40.068",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "332",
+      "label": "332",
+      "lat_dms": "N030.06.26.552",
+      "lon_dms": "E031.24.04.875",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "331",
+      "label": "331",
+      "lat_dms": "N030.06.25.680",
+      "lon_dms": "E031.24.03.711",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "333",
+      "label": "333",
+      "lat_dms": "N030.06.27.426",
+      "lon_dms": "E031.24.05.996",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "334",
+      "label": "334",
+      "lat_dms": "N030.06.28.255",
+      "lon_dms": "E031.24.07.245",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "335",
+      "label": "335",
+      "lat_dms": "N030.06.29.968",
+      "lon_dms": "E031.24.07.884",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "336",
+      "label": "336",
+      "lat_dms": "N030.06.31.750",
+      "lon_dms": "E031.24.10.198",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "11_3",
+      "label": "11",
+      "lat_dms": "N030.07.27.825",
+      "lon_dms": "E031.24.44.983",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "12_3",
+      "label": "12",
+      "lat_dms": "N030.07.27.995",
+      "lon_dms": "E031.24.45.763",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "13_3",
+      "label": "13",
+      "lat_dms": "N030.07.26.484",
+      "lon_dms": "E031.24.45.515",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "14_2",
+      "label": "14",
+      "lat_dms": "N030.07.26.689",
+      "lon_dms": "E031.24.46.214",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "15_2",
+      "label": "15",
+      "lat_dms": "N030.07.25.227",
+      "lon_dms": "E031.24.46.006",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "16_2",
+      "label": "16",
+      "lat_dms": "N030.07.25.410",
+      "lon_dms": "E031.24.46.758",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "17_2",
+      "label": "17",
+      "lat_dms": "N030.07.24.121",
+      "lon_dms": "E031.24.46.445",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "19_2",
+      "label": "19",
+      "lat_dms": "N030.07.22.936",
+      "lon_dms": "E031.24.46.892",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "111",
+      "label": "111",
+      "lat_dms": "N030.07.21.673",
+      "lon_dms": "E031.24.47.380",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "113",
+      "label": "113",
+      "lat_dms": "N030.07.20.552",
+      "lon_dms": "E031.24.47.821",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "114",
+      "label": "114",
+      "lat_dms": "N030.07.19.512",
+      "lon_dms": "E031.24.48.213",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "21_2",
+      "label": "21",
+      "lat_dms": "N030.07.31.590",
+      "lon_dms": "E031.24.47.295",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "22_2",
+      "label": "22",
+      "lat_dms": "N030.07.31.820",
+      "lon_dms": "E031.24.48.111",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "23_2",
+      "label": "23",
+      "lat_dms": "N030.07.32.119",
+      "lon_dms": "E031.24.48.968",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "24_2",
+      "label": "24",
+      "lat_dms": "N030.07.29.589",
+      "lon_dms": "E031.24.47.987",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "25_2",
+      "label": "25",
+      "lat_dms": "N030.07.29.828",
+      "lon_dms": "E031.24.48.816",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "26_2",
+      "label": "26",
+      "lat_dms": "N030.07.30.096",
+      "lon_dms": "E031.24.49.658",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "27_2",
+      "label": "27",
+      "lat_dms": "N030.07.27.650",
+      "lon_dms": "E031.24.48.618",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "28_2",
+      "label": "28",
+      "lat_dms": "N030.07.27.912",
+      "lon_dms": "E031.24.49.551",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "29_2",
+      "label": "29",
+      "lat_dms": "N030.07.28.181",
+      "lon_dms": "E031.24.50.393",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "210",
+      "label": "210",
+      "lat_dms": "N030.07.25.883",
+      "lon_dms": "E031.24.49.311",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "211",
+      "label": "211",
+      "lat_dms": "N030.07.26.177",
+      "lon_dms": "E031.24.50.214",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "212",
+      "label": "212",
+      "lat_dms": "N030.07.26.388",
+      "lon_dms": "E031.24.51.050",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "31_2",
+      "label": "31",
+      "lat_dms": "N030.07.34.699",
+      "lon_dms": "E031.24.43.178",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "32_2",
+      "label": "32",
+      "lat_dms": "N030.07.32.343",
+      "lon_dms": "E031.24.43.990",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "33_2",
+      "label": "33",
+      "lat_dms": "N030.07.29.811",
+      "lon_dms": "E031.24.44.908",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "34_2",
+      "label": "34",
+      "lat_dms": "N030.07.36.087",
+      "lon_dms": "E031.24.45.844",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "35_2",
+      "label": "35",
+      "lat_dms": "N030.07.36.507",
+      "lon_dms": "E031.24.47.018",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "36_2",
+      "label": "36",
+      "lat_dms": "N030.07.33.824",
+      "lon_dms": "E031.24.46.600",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "37_2",
+      "label": "37",
+      "lat_dms": "N030.07.34.290",
+      "lon_dms": "E031.24.47.838",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "1_5",
+      "label": "1",
+      "lat_dms": "N030.08.18.653",
+      "lon_dms": "E031.24.31.393",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "2_5",
+      "label": "2",
+      "lat_dms": "N030.08.19.335",
+      "lon_dms": "E031.24.33.750",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "3_5",
+      "label": "3",
+      "lat_dms": "N030.08.15.625",
+      "lon_dms": "E031.24.32.035",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "4_5",
+      "label": "4",
+      "lat_dms": "N030.08.14.153",
+      "lon_dms": "E031.24.32.655",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "5_4",
+      "label": "5",
+      "lat_dms": "N030.08.12.665",
+      "lon_dms": "E031.24.33.320",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "6_4",
+      "label": "6",
+      "lat_dms": "N030.08.11.067",
+      "lon_dms": "E031.24.33.876",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "7_4",
+      "label": "7",
+      "lat_dms": "N030.08.09.567",
+      "lon_dms": "E031.24.34.490",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "8_4",
+      "label": "8",
+      "lat_dms": "N030.08.08.371",
+      "lon_dms": "E031.24.34.988",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "9_4",
+      "label": "9",
+      "lat_dms": "N030.08.07.167",
+      "lon_dms": "E031.24.35.438",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "10_3",
+      "label": "10",
+      "lat_dms": "N030.08.05.559",
+      "lon_dms": "E031.24.36.039",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "11_4",
+      "label": "11",
+      "lat_dms": "N030.08.04.013",
+      "lon_dms": "E031.24.36.520",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "12_4",
+      "label": "12",
+      "lat_dms": "N030.07.59.805",
+      "lon_dms": "E031.24.37.906",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "13_4",
+      "label": "13",
+      "lat_dms": "N030.07.58.319",
+      "lon_dms": "E031.24.38.506",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "14_3",
+      "label": "14",
+      "lat_dms": "N030.07.56.824",
+      "lon_dms": "E031.24.39.088",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "15_3",
+      "label": "15",
+      "lat_dms": "N030.07.52.152",
+      "lon_dms": "E031.24.40.799",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "16_3",
+      "label": "16",
+      "lat_dms": "N030.07.50.618",
+      "lon_dms": "E031.24.41.330",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "17_3",
+      "label": "17",
+      "lat_dms": "N030.07.49.060",
+      "lon_dms": "E031.24.41.972",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "18_2",
+      "label": "18",
+      "lat_dms": "N030.07.47.603",
+      "lon_dms": "E031.24.42.428",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "19_3",
+      "label": "19",
+      "lat_dms": "N030.07.46.049",
+      "lon_dms": "E031.24.43.005",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "20_2",
+      "label": "20",
+      "lat_dms": "N030.07.44.534",
+      "lon_dms": "E031.24.43.634",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "21_3",
+      "label": "21",
+      "lat_dms": "N030.07.41.259",
+      "lon_dms": "E031.24.41.181",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "22_3",
+      "label": "22",
+      "lat_dms": "N030.07.42.192",
+      "lon_dms": "E031.24.40.831",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "23_3",
+      "label": "23",
+      "lat_dms": "N030.07.43.170",
+      "lon_dms": "E031.24.40.452",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "24_3",
+      "label": "24",
+      "lat_dms": "N030.07.44.108",
+      "lon_dms": "E031.24.40.152",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "25_3",
+      "label": "25",
+      "lat_dms": "N030.07.46.002",
+      "lon_dms": "E031.24.39.438",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "26_3",
+      "label": "26",
+      "lat_dms": "N030.07.46.944",
+      "lon_dms": "E031.24.39.116",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "27_3",
+      "label": "27",
+      "lat_dms": "N030.07.47.878",
+      "lon_dms": "E031.24.38.762",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "28_3",
+      "label": "28",
+      "lat_dms": "N030.07.48.828",
+      "lon_dms": "E031.24.38.404",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "29_3",
+      "label": "29",
+      "lat_dms": "N030.07.49.802",
+      "lon_dms": "E031.24.38.085",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "30_2",
+      "label": "30",
+      "lat_dms": "N030.07.50.735",
+      "lon_dms": "E031.24.37.733",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "31_3",
+      "label": "31",
+      "lat_dms": "N030.07.51.698",
+      "lon_dms": "E031.24.37.390",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T",
+      "label": "T",
+      "lat_dms": "N030.06.00.338",
+      "lon_dms": "E031.23.50.663",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_2",
+      "label": "T",
+      "lat_dms": "N030.06.04.884",
+      "lon_dms": "E031.23.47.439",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_3",
+      "label": "T",
+      "lat_dms": "N030.06.08.063",
+      "lon_dms": "E031.23.51.739",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_4",
+      "label": "T",
+      "lat_dms": "N030.06.13.525",
+      "lon_dms": "E031.23.58.655",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_5",
+      "label": "T",
+      "lat_dms": "N030.06.27.539",
+      "lon_dms": "E031.24.17.616",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_6",
+      "label": "T",
+      "lat_dms": "N030.06.42.411",
+      "lon_dms": "E031.24.37.104",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_7",
+      "label": "T",
+      "lat_dms": "N030.06.51.632",
+      "lon_dms": "E031.24.49.294",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_8",
+      "label": "T",
+      "lat_dms": "N030.07.03.776",
+      "lon_dms": "E031.25.05.449",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_9",
+      "label": "T",
+      "lat_dms": "N030.07.16.938",
+      "lon_dms": "E031.25.23.177",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_10",
+      "label": "T",
+      "lat_dms": "N030.07.27.757",
+      "lon_dms": "E031.25.37.604",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T_11",
+      "label": "T",
+      "lat_dms": "N030.07.26.088",
+      "lon_dms": "E031.25.45.239",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T1",
+      "label": "T1",
+      "lat_dms": "N030.06.07.147",
+      "lon_dms": "E031.23.57.749",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "R",
+      "label": "R",
+      "lat_dms": "N030.06.13.683",
+      "lon_dms": "E031.24.05.955",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T2",
+      "label": "T2",
+      "lat_dms": "N030.06.18.669",
+      "lon_dms": "E031.24.13.420",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T3",
+      "label": "T3",
+      "lat_dms": "N030.06.28.278",
+      "lon_dms": "E031.24.25.258",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T4",
+      "label": "T4",
+      "lat_dms": "N030.06.52.923",
+      "lon_dms": "E031.24.59.335",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "U",
+      "label": "U",
+      "lat_dms": "N030.07.08.766",
+      "lon_dms": "E031.24.53.647",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "U_2",
+      "label": "U",
+      "lat_dms": "N030.07.27.867",
+      "lon_dms": "E031.24.46.672",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "U_3",
+      "label": "U",
+      "lat_dms": "N030.07.39.917",
+      "lon_dms": "E031.24.42.599",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "U_4",
+      "label": "U",
+      "lat_dms": "N030.08.01.164",
+      "lon_dms": "E031.24.35.355",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "U_5",
+      "label": "U",
+      "lat_dms": "N030.08.16.385",
+      "lon_dms": "E031.24.29.766",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T5",
+      "label": "T5",
+      "lat_dms": "N030.07.06.817",
+      "lon_dms": "E031.25.19.128",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "L",
+      "label": "L",
+      "lat_dms": "N030.07.16.867",
+      "lon_dms": "E031.25.31.404",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "T6",
+      "label": "T6",
+      "lat_dms": "N030.07.21.639",
+      "lon_dms": "E031.25.36.212",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "R_2",
+      "label": "R",
+      "lat_dms": "N030.06.00.865",
+      "lon_dms": "E031.24.18.571",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "R_3",
+      "label": "R",
+      "lat_dms": "N030.05.54.668",
+      "lon_dms": "E031.24.43.555",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "R1",
+      "label": "R1",
+      "lat_dms": "N030.06.00.074",
+      "lon_dms": "E031.25.05.440",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "R1_2",
+      "label": "R1",
+      "lat_dms": "N030.06.01.476",
+      "lon_dms": "E031.25.09.511",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "lat_dms": "N030.05.52.433",
+      "lon_dms": "E031.25.06.207",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_2",
+      "label": "F",
+      "lat_dms": "N030.05.57.534",
+      "lon_dms": "E031.25.07.731",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_3",
+      "label": "F",
+      "lat_dms": "N030.06.08.174",
+      "lon_dms": "E031.25.22.141",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_4",
+      "label": "F",
+      "lat_dms": "N030.06.32.425",
+      "lon_dms": "E031.25.53.708",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_5",
+      "label": "F",
+      "lat_dms": "N030.06.51.393",
+      "lon_dms": "E031.26.18.941",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_6",
+      "label": "F",
+      "lat_dms": "N030.07.02.278",
+      "lon_dms": "E031.26.34.482",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_7",
+      "label": "F",
+      "lat_dms": "N030.07.12.656",
+      "lon_dms": "E031.26.48.498",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F_8",
+      "label": "F",
+      "lat_dms": "N030.07.16.371",
+      "lon_dms": "E031.26.59.634",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "R1_3",
+      "label": "R1",
+      "lat_dms": "N030.05.57.562",
+      "lon_dms": "E031.25.13.191",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "F1_2",
+      "label": "F1",
+      "lat_dms": "N030.07.11.531",
+      "lon_dms": "E031.26.51.954",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "H",
+      "label": "H",
+      "lat_dms": "N030.07.06.981",
+      "lon_dms": "E031.26.37.911",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "H1",
+      "label": "H1",
+      "lat_dms": "N030.06.59.237",
+      "lon_dms": "E031.26.27.117",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "H2",
+      "label": "H2",
+      "lat_dms": "N030.06.45.186",
+      "lon_dms": "E031.26.07.629",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "L_2",
+      "label": "L",
+      "lat_dms": "N030.07.01.309",
+      "lon_dms": "E031.25.46.605",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "L_3",
+      "label": "L",
+      "lat_dms": "N030.06.50.762",
+      "lon_dms": "E031.25.57.064",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S",
+      "label": "S",
+      "lat_dms": "N030.06.06.250",
+      "lon_dms": "E031.23.44.494",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S_2",
+      "label": "S",
+      "lat_dms": "N030.06.10.659",
+      "lon_dms": "E031.23.49.178",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S_3",
+      "label": "S",
+      "lat_dms": "N030.06.21.001",
+      "lon_dms": "E031.24.03.081",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S_4",
+      "label": "S",
+      "lat_dms": "N030.06.34.290",
+      "lon_dms": "E031.24.20.506",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S_5",
+      "label": "S",
+      "lat_dms": "N030.06.45.989",
+      "lon_dms": "E031.24.36.194",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J",
+      "label": "J",
+      "lat_dms": "N030.06.55.199",
+      "lon_dms": "E031.24.44.007",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J_2",
+      "label": "J",
+      "lat_dms": "N030.07.05.547",
+      "lon_dms": "E031.24.39.966",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J_3",
+      "label": "J",
+      "lat_dms": "N030.07.26.753",
+      "lon_dms": "E031.24.32.433",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J_4",
+      "label": "J",
+      "lat_dms": "N030.08.00.455",
+      "lon_dms": "E031.24.20.502",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J_5",
+      "label": "J",
+      "lat_dms": "N030.08.11.952",
+      "lon_dms": "E031.24.16.056",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J1",
+      "label": "J1",
+      "lat_dms": "N030.07.51.353",
+      "lon_dms": "E031.24.27.246",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J1_2",
+      "label": "J1",
+      "lat_dms": "N030.07.56.451",
+      "lon_dms": "E031.24.13.616",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A",
+      "label": "A",
+      "lat_dms": "N030.08.11.881",
+      "lon_dms": "E031.24.20.936",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_2",
+      "label": "A",
+      "lat_dms": "N030.08.07.157",
+      "lon_dms": "E031.24.14.688",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_3",
+      "label": "A",
+      "lat_dms": "N030.08.01.819",
+      "lon_dms": "E031.24.08.072",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_4",
+      "label": "A",
+      "lat_dms": "N030.07.56.014",
+      "lon_dms": "E031.24.00.666",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_5",
+      "label": "A",
+      "lat_dms": "N030.07.37.708",
+      "lon_dms": "E031.23.35.748",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_6",
+      "label": "A",
+      "lat_dms": "N030.07.19.452",
+      "lon_dms": "E031.23.11.534",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_7",
+      "label": "A",
+      "lat_dms": "N030.07.12.296",
+      "lon_dms": "E031.23.02.019",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_8",
+      "label": "A",
+      "lat_dms": "N030.07.07.305",
+      "lon_dms": "E031.22.55.321",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A_9",
+      "label": "A",
+      "lat_dms": "N030.07.09.112",
+      "lon_dms": "E031.22.51.347",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A1",
+      "label": "A1",
+      "lat_dms": "N030.07.11.668",
+      "lon_dms": "E031.22.55.573",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A2",
+      "label": "A2",
+      "lat_dms": "N030.07.18.067",
+      "lon_dms": "E031.23.04.759",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A3",
+      "label": "A3",
+      "lat_dms": "N030.07.28.882",
+      "lon_dms": "E031.23.18.715",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A4",
+      "label": "A4",
+      "lat_dms": "N030.07.53.041",
+      "lon_dms": "E031.23.50.889",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "A5",
+      "label": "A5",
+      "lat_dms": "N030.08.04.921",
+      "lon_dms": "E031.24.06.239",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G1_2",
+      "label": "G1",
+      "lat_dms": "N030.08.18.920",
+      "lon_dms": "E031.24.24.144",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G",
+      "label": "G",
+      "lat_dms": "N030.08.17.499",
+      "lon_dms": "E031.24.21.895",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G_2",
+      "label": "G",
+      "lat_dms": "N030.08.04.968",
+      "lon_dms": "E031.24.26.236",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G_3",
+      "label": "G",
+      "lat_dms": "N030.07.41.973",
+      "lon_dms": "E031.24.34.217",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G_4",
+      "label": "G",
+      "lat_dms": "N030.07.22.329",
+      "lon_dms": "E031.24.41.816",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G_5",
+      "label": "G",
+      "lat_dms": "N030.07.07.103",
+      "lon_dms": "E031.24.47.521",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "G_6",
+      "label": "G",
+      "lat_dms": "N030.06.56.595",
+      "lon_dms": "E031.24.50.958",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S1",
+      "label": "S1",
+      "lat_dms": "N030.06.25.039",
+      "lon_dms": "E031.24.11.072",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "S2",
+      "label": "S2",
+      "lat_dms": "N030.06.38.876",
+      "lon_dms": "E031.24.29.194",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J3",
+      "label": "J3",
+      "lat_dms": "N030.06.58.762",
+      "lon_dms": "E031.24.46.453",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J3_2",
+      "label": "J3",
+      "lat_dms": "N030.07.00.919",
+      "lon_dms": "E031.24.53.790",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J2",
+      "label": "J2",
+      "lat_dms": "N030.07.14.291",
+      "lon_dms": "E031.24.40.491",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "J2_2",
+      "label": "J2",
+      "lat_dms": "N030.07.16.277",
+      "lon_dms": "E031.24.48.311",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E",
+      "label": "E",
+      "lat_dms": "N030.06.16.711",
+      "lon_dms": "E031.23.51.635",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "E_2",
+      "label": "E",
+      "lat_dms": "N030.06.21.700",
+      "lon_dms": "E031.23.50.222",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "D",
+      "label": "D",
+      "lat_dms": "N030.06.17.988",
+      "lon_dms": "E031.23.55.083",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "D_2",
+      "label": "D",
+      "lat_dms": "N030.06.22.605",
+      "lon_dms": "E031.23.53.709",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "lat_dms": "N030.06.19.481",
+      "lon_dms": "E031.23.32.388",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "B_2",
+      "label": "B",
+      "lat_dms": "N030.06.20.720",
+      "lon_dms": "E031.23.37.803",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "B_3",
+      "label": "B",
+      "lat_dms": "N030.06.22.697",
+      "lon_dms": "E031.23.46.310",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "B_4",
+      "label": "B",
+      "lat_dms": "N030.06.24.964",
+      "lon_dms": "E031.23.56.085",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "lat_dms": "N030.06.16.219",
+      "lon_dms": "E031.23.33.289",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C_2",
+      "label": "C",
+      "lat_dms": "N030.06.17.538",
+      "lon_dms": "E031.23.39.126",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C_3",
+      "label": "C",
+      "lat_dms": "N030.06.19.405",
+      "lon_dms": "E031.23.47.333",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C_4",
+      "label": "C",
+      "lat_dms": "N030.06.23.049",
+      "lon_dms": "E031.23.57.254",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C_5",
+      "label": "C",
+      "lat_dms": "N030.06.26.497",
+      "lon_dms": "E031.24.01.365",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C_6",
+      "label": "C",
+      "lat_dms": "N030.06.29.936",
+      "lon_dms": "E031.24.03.822",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C_7",
+      "label": "C",
+      "lat_dms": "N030.06.32.973",
+      "lon_dms": "E031.24.07.285",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "C1_2",
+      "label": "C1",
+      "lat_dms": "N030.06.33.559",
+      "lon_dms": "E031.24.04.391",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "Y",
+      "label": "Y",
+      "lat_dms": "N030.06.36.977",
+      "lon_dms": "E031.24.03.057",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "Y_2",
+      "label": "Y",
+      "lat_dms": "N030.06.35.701",
+      "lon_dms": "E031.24.07.950",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "Y_3",
+      "label": "Y",
+      "lat_dms": "N030.06.34.045",
+      "lon_dms": "E031.24.13.998",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W1",
+      "label": "W1",
+      "lat_dms": "N030.06.38.940",
+      "lon_dms": "E031.24.20.736",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W1_2",
+      "label": "W1",
+      "lat_dms": "N030.06.43.754",
+      "lon_dms": "E031.24.15.863",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W1_3",
+      "label": "W1",
+      "lat_dms": "N030.06.47.834",
+      "lon_dms": "E031.24.07.530",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W1_4",
+      "label": "W1",
+      "lat_dms": "N030.06.52.109",
+      "lon_dms": "E031.24.07.882",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W2",
+      "label": "W2",
+      "lat_dms": "N030.06.50.262",
+      "lon_dms": "E031.24.13.212",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W2_2",
+      "label": "W2",
+      "lat_dms": "N030.06.45.640",
+      "lon_dms": "E031.24.17.906",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W2_3",
+      "label": "W2",
+      "lat_dms": "N030.06.40.495",
+      "lon_dms": "E031.24.23.159",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    },
+    {
+      "id": "W3",
+      "label": "W3",
+      "lat_dms": "N030.06.46.652",
+      "lon_dms": "E031.24.14.548",
+      "radius_m": 32,
+      "source": "actual HECA Free Text coordinate from supplied .ese"
+    }
+  ]
+}
