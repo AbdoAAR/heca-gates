@@ -4,96 +4,89 @@
 #include "GateOccupancyPlugin.h"
 #include "HecaGateData.h"
 
-#include <string>
 #include <cstring>
 
 void GateOccupancyScreen::OnRefresh(HDC hDC, int Phase)
 {
-    // This SDK version does not define REFRESH_PHASE_AFTER_TAGS.
-    // Keep the Phase parameter but do not filter on it.
+    // Avoid relying on undefined refresh phase constants.
     (void)Phase;
 
-    auto* plugin = static_cast<GateOccupancyPlugin*>(GetPlugIn());
+    auto* plugin =
+        static_cast<GateOccupancyPlugin*>(GetPlugIn());
 
     if (!plugin)
         return;
 
-    // Get the gates from the plugin
-    const auto& gates = plugin->GetGates();
+    if (!plugin->Enabled())
+        return;
 
-    for (const auto& gate : gates)
+    // Update aircraft/gate occupancy states
+    plugin->UpdateOccupancy();
+
+    for (std::size_t i = 0; i < kHecaGateCount; ++i)
     {
-        POINT point;
+        const HecaGateData& gate = kHecaGates[i];
 
-        // Convert geographic coordinates to screen coordinates
-        if (!ConvertCoordFromPositionToPixel(
-                gate.latitude,
-                gate.longitude,
-                &point))
-        {
-            continue;
-        }
+        // SDK requires a CPosition and returns a POINT
+        EuroScopePlugIn::CPosition gatePosition;
+        gatePosition.m_Latitude = gate.lat;
+        gatePosition.m_Longitude = gate.lon;
 
-        bool occupied = plugin->IsGateOccupied(gate.name);
+        POINT point =
+            ConvertCoordFromPositionToPixel(gatePosition);
 
-        // Occupied = red
-        // Free = grey
+        GateState state =
+            plugin->GetGateState(gate.id);
+
         COLORREF gateColor;
 
-        if (occupied)
+        if (state.occupied)
             gateColor = RGB(255, 0, 0);
         else
             gateColor = RGB(130, 130, 130);
 
-        // Draw gate circle
+        // Draw occupied/free gate marker
         HBRUSH brush = CreateSolidBrush(gateColor);
-        HBRUSH oldBrush = (HBRUSH)SelectObject(hDC, brush);
+        HBRUSH oldBrush =
+            static_cast<HBRUSH>(SelectObject(hDC, brush));
 
         Ellipse(
             hDC,
-            point.x - 6,
-            point.y - 6,
-            point.x + 6,
-            point.y + 6
+            point.x - 5,
+            point.y - 5,
+            point.x + 5,
+            point.y + 5
         );
 
         SelectObject(hDC, oldBrush);
         DeleteObject(brush);
 
-        // Draw gate name
+        // Draw gate label
         SetBkMode(hDC, TRANSPARENT);
         SetTextColor(hDC, gateColor);
 
         TextOutA(
             hDC,
-            point.x + 8,
+            point.x + 7,
             point.y - 6,
-            gate.name.c_str(),
-            (int)gate.name.length()
+            gate.label,
+            static_cast<int>(std::strlen(gate.label))
         );
 
-        // Optional callsign for occupied gates
-        if (plugin->ShowCallsigns() && occupied)
+        // Draw callsign beside occupied gate
+        if (state.occupied &&
+            plugin->ShowCallsign() &&
+            !state.callsign.empty())
         {
-            std::string callsign = plugin->GetGateCallsign(gate.name);
+            SetTextColor(hDC, RGB(255, 255, 255));
 
-            if (!callsign.empty())
-            {
-                SetTextColor(hDC, RGB(255, 255, 255));
-
-                TextOutA(
-                    hDC,
-                    point.x + 8,
-                    point.y + 8,
-                    callsign.c_str(),
-                    (int)callsign.length()
-                );
-            }
+            TextOutA(
+                hDC,
+                point.x + 7,
+                point.y + 8,
+                state.callsign.c_str(),
+                static_cast<int>(state.callsign.length())
+            );
         }
     }
-}
-
-void GateOccupancyScreen::OnAsrContentToBeClosed(void)
-{
-    delete this;
 }
