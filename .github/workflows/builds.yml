@@ -1,0 +1,28 @@
+name: Build HECA Gate Occupancy DLL
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure CMake
+        run: cmake -S . -B build -A Win32
+
+      - name: Build Release
+        run: cmake --build build --config Release
+
+      - name: Upload DLL
+        uses: actions/upload-artifact@v4
+        with:
+          name: HECA_GateOccupancy-Win32
+          path: |
+            build/Release/HECA_GateOccupancy.dll
+            config/HECA_Gates.json
