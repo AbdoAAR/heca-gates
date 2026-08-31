@@ -51,7 +51,6 @@ static double DistanceMeters(
 
 void GateOccupancyPlugin::UpdateOccupancy()
 {
-    // Clear previous frame's occupancy data
     states_.clear();
 
     for (
@@ -72,38 +71,28 @@ void GateOccupancyPlugin::UpdateOccupancy()
         if (!posData.IsValid())
             continue;
 
-        // Ignore aircraft that are clearly airborne.
-        // Aircraft on stands should normally be close to ground level.
-        if (posData.GetPressureAltitude() > 500)
+        // Ignore aircraft clearly flying.
+        // Keep ground and low aircraft available for detection.
+        if (posData.GetPressureAltitude() > 5000)
             continue;
 
         EuroScopePlugIn::CPosition aircraftPosition =
             posData.GetPosition();
 
-        const char* callsign =
-            fp.GetCallsign();
+        const char* callsign = fp.GetCallsign();
 
-        // Each aircraft can occupy only ONE gate:
-        // the closest gate within its detection radius.
         double bestDistance = 999999999.0;
         const HecaGateData* bestGate = nullptr;
 
-        for (
-            std::size_t i = 0;
-            i < kHecaGateCount;
-            ++i
-        )
+        for (std::size_t i = 0; i < kHecaGateCount; ++i)
         {
-            const HecaGateData& gate =
-                kHecaGates[i];
-
             EuroScopePlugIn::CPosition gatePosition;
 
             gatePosition.m_Latitude =
-                gate.lat;
+                kHecaGates[i].lat;
 
             gatePosition.m_Longitude =
-                gate.lon;
+                kHecaGates[i].lon;
 
             const double distance =
                 DistanceMeters(
@@ -111,10 +100,13 @@ void GateOccupancyPlugin::UpdateOccupancy()
                     gatePosition
                 );
 
-            // Use ONLY the radius defined for this stand.
-            // Do NOT force a 75m minimum radius.
+            // Large radius for testing.
+            // Change later once detection is confirmed.
             const double detectionRadius =
-                gate.radiusM;
+                std::max(
+                    kHecaGates[i].radiusM,
+                    150.0
+                );
 
             if (
                 distance <= detectionRadius &&
@@ -122,7 +114,7 @@ void GateOccupancyPlugin::UpdateOccupancy()
             )
             {
                 bestDistance = distance;
-                bestGate = &gate;
+                bestGate = &kHecaGates[i];
             }
         }
 
@@ -135,8 +127,7 @@ void GateOccupancyPlugin::UpdateOccupancy()
             if (callsign != nullptr)
                 state.callsign = callsign;
 
-            states_[bestGate->id] =
-                state;
+            states_[bestGate->id] = state;
         }
     }
 }
@@ -148,8 +139,7 @@ GateState GateOccupancyPlugin::GetGateState(
     if (!id)
         return GateState{};
 
-    auto it =
-        states_.find(id);
+    auto it = states_.find(id);
 
     if (it == states_.end())
         return GateState{};
@@ -157,9 +147,7 @@ GateState GateOccupancyPlugin::GetGateState(
     return it->second;
 }
 
-void GateOccupancyPlugin::SetEnabled(
-    bool enabled
-)
+void GateOccupancyPlugin::SetEnabled(bool enabled)
 {
     enabled_ = enabled;
 }
@@ -169,9 +157,7 @@ bool GateOccupancyPlugin::Enabled() const
     return enabled_;
 }
 
-void GateOccupancyPlugin::SetShowCallsign(
-    bool enabled
-)
+void GateOccupancyPlugin::SetShowCallsign(bool enabled)
 {
     showCallsign_ = enabled;
 }
@@ -188,23 +174,13 @@ bool GateOccupancyPlugin::OnCompileCommand(
     if (!commandLine)
         return false;
 
-    if (
-        _stricmp(
-            commandLine,
-            ".HECAGATES ON"
-        ) == 0
-    )
+    if (_stricmp(commandLine, ".HECAGATES ON") == 0)
     {
         enabled_ = true;
         return true;
     }
 
-    if (
-        _stricmp(
-            commandLine,
-            ".HECAGATES OFF"
-        ) == 0
-    )
+    if (_stricmp(commandLine, ".HECAGATES OFF") == 0)
     {
         enabled_ = false;
         return true;
