@@ -6,51 +6,94 @@
 
 #include <string>
 #include <cstring>
-void GateOccupancyScreen::OnRefresh(HDC hDC, int Phase) {
-    if (Phase != REFRESH_PHASE_AFTER_TAGS) return;
+
+void GateOccupancyScreen::OnRefresh(HDC hDC, int Phase)
+{
+    // This SDK version does not define REFRESH_PHASE_AFTER_TAGS.
+    // Keep the Phase parameter but do not filter on it.
+    (void)Phase;
+
     auto* plugin = static_cast<GateOccupancyPlugin*>(GetPlugIn());
-    if (!plugin || !plugin->Enabled()) return;
 
-    plugin->UpdateOccupancy();
+    if (!plugin)
+        return;
 
-    HFONT font = CreateFontA(-14, 0, 0, 0, FW_BOLD, FALSE, FALSE, FALSE,
-                             DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
-                             ANTIALIASED_QUALITY, DEFAULT_PITCH | FF_SWISS, "Segoe UI");
-    HGDIOBJ oldFont = SelectObject(hDC, font);
-    int oldBk = SetBkMode(hDC, TRANSPARENT);
+    // Get the gates from the plugin
+    const auto& gates = plugin->GetGates();
 
-    for (std::size_t i = 0; i < kHecaGateCount; ++i) {
-        EuroScopePlugIn::CPosition p;
-        p.m_Latitude = kHecaGates[i].lat;
-        p.m_Longitude = kHecaGates[i].lon;
-        POINT px = ConvertCoordFromPositionToPixel(p);
-        GateState state = plugin->GetGateState(kHecaGates[i].id);
+    for (const auto& gate : gates)
+    {
+        POINT point;
 
-        COLORREF color = state.occupied ? RGB(255, 35, 35) : RGB(130, 130, 130);
-        SetTextColor(hDC, color);
-
-        if (state.occupied) {
-            HPEN pen = CreatePen(PS_SOLID, 2, RGB(255, 35, 35));
-            HBRUSH brush = CreateSolidBrush(RGB(255, 35, 35));
-            HGDIOBJ oldPen = SelectObject(hDC, pen);
-            HGDIOBJ oldBrush = SelectObject(hDC, brush);
-            Ellipse(hDC, px.x - 4, px.y - 4, px.x + 5, px.y + 5);
-            SelectObject(hDC, oldPen);
-            SelectObject(hDC, oldBrush);
-            DeleteObject(pen);
-            DeleteObject(brush);
+        // Convert geographic coordinates to screen coordinates
+        if (!ConvertCoordFromPositionToPixel(
+                gate.latitude,
+                gate.longitude,
+                &point))
+        {
+            continue;
         }
 
-        TextOutA(hDC, px.x + 6, px.y - 7, kHecaGates[i].label,
-                 (int)std::strlen(kHecaGates[i].label));
+        bool occupied = plugin->IsGateOccupied(gate.name);
 
-        if (state.occupied && plugin->ShowCallsign() && !state.callsign.empty()) {
-            std::string cs = " " + state.callsign;
-            TextOutA(hDC, px.x + 20, px.y + 8, cs.c_str(), (int)cs.size());
+        // Occupied = red
+        // Free = grey
+        COLORREF gateColor;
+
+        if (occupied)
+            gateColor = RGB(255, 0, 0);
+        else
+            gateColor = RGB(130, 130, 130);
+
+        // Draw gate circle
+        HBRUSH brush = CreateSolidBrush(gateColor);
+        HBRUSH oldBrush = (HBRUSH)SelectObject(hDC, brush);
+
+        Ellipse(
+            hDC,
+            point.x - 6,
+            point.y - 6,
+            point.x + 6,
+            point.y + 6
+        );
+
+        SelectObject(hDC, oldBrush);
+        DeleteObject(brush);
+
+        // Draw gate name
+        SetBkMode(hDC, TRANSPARENT);
+        SetTextColor(hDC, gateColor);
+
+        TextOutA(
+            hDC,
+            point.x + 8,
+            point.y - 6,
+            gate.name.c_str(),
+            (int)gate.name.length()
+        );
+
+        // Optional callsign for occupied gates
+        if (plugin->ShowCallsigns() && occupied)
+        {
+            std::string callsign = plugin->GetGateCallsign(gate.name);
+
+            if (!callsign.empty())
+            {
+                SetTextColor(hDC, RGB(255, 255, 255));
+
+                TextOutA(
+                    hDC,
+                    point.x + 8,
+                    point.y + 8,
+                    callsign.c_str(),
+                    (int)callsign.length()
+                );
+            }
         }
     }
+}
 
-    SetBkMode(hDC, oldBk);
-    SelectObject(hDC, oldFont);
-    DeleteObject(font);
+void GateOccupancyScreen::OnAsrContentToBeClosed(void)
+{
+    delete this;
 }
