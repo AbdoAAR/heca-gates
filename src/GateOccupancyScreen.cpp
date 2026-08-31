@@ -1,10 +1,10 @@
 #include <Windows.h>
-#include "GateOccupancyPlugin.h"
+
 #include "GateOccupancyScreen.h"
+#include "GateOccupancyPlugin.h"
 #include "HecaGateData.h"
 
-#include <algorithm>
-#include <cmath>
+#include <string>
 #include <cstring>
 void GateOccupancyScreen::OnRefresh(HDC hDC, int Phase) {
     if (Phase != REFRESH_PHASE_AFTER_TAGS) return;
